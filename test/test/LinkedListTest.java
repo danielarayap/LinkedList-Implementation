@@ -19,6 +19,7 @@ public class LinkedListTest {
         assertEquals(0, l.size());
     }
 
+
     @Test
     public void adding() {
         l.addFirst(42);
