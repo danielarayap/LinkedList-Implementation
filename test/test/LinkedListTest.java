@@ -5,15 +5,12 @@ import org.junit.*;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by Daniel Araya on 18-09-2017.
- */
-public class LinkListTest {
-    private ILinkList l;
+public class LinkedListTest {
+    private ILinkedList l;
 
     @Before
     public void setUp() throws Exception {
-        l = new LinkList();
+        l = new LinkedList();
     }
 
     @Test
@@ -26,11 +23,18 @@ public class LinkListTest {
     public void adding() {
         l.addFirst(42);
         l.addFirst("Happy World");
-        assertEquals(2, l.size());
+        l.addFirst('c');
+        l.addFirst(Math.PI);
+        assertEquals(3,l.indexOf(42));
+        assertFalse(l.isEmpty());
+        assertEquals(4, l.size());
         assertTrue(l.includes("Happy World"));
         assertTrue(l.includes(42));
         assertFalse(l.includes(43));
+        l.addLast(43);
+        l.addLast('k');
+        assertEquals(4, l.indexOf(43));
+        assertEquals(6, l.size());
     }
-
 
 }

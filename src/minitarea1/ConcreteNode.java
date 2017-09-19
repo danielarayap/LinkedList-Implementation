@@ -1,16 +1,13 @@
 package minitarea1;
 
-/**
- * Created by Daniel Araya on 18-09-2017.
- */
-public class ConcreteNode implements Node {
+public class ConcreteNode implements INode {
 
     private Object value;
-    private Node next;
+    private INode next;
 
-    public ConcreteNode(Object o, Node first) {
+    ConcreteNode(Object o, INode nxt) {
         value = o;
-        next = first;
+        next = nxt;
     }
 
     @Override
@@ -22,4 +19,20 @@ public class ConcreteNode implements Node {
     public int size(){
         return 1 + next.size();
     }
+
+    @Override
+    public int indexOf(Object o) {
+        return value.equals(o) ? 0 : 1 + next.indexOf(o);
+    }
+
+    @Override
+    public INode getNext() {
+        return next;
+    }
+
+    @Override
+    public void setNext(INode node) {
+        next = node;
+    }
+
 }

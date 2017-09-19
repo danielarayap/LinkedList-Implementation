@@ -1,9 +1,7 @@
 package minitarea1;
 
-/**
- * Created by Daniel Araya on 18-09-2017.
- */
-public class NullNode implements Node {
+public class NullNode implements INode {
+
     @Override
     public boolean includes (Object o){
         return false;
@@ -13,4 +11,19 @@ public class NullNode implements Node {
     public int size(){
         return 0;
     }
+
+    @Override
+    public int indexOf(Object o) {
+        return -1;
+    }
+
+    @Override
+    public INode getNext() {
+        return null;
+    }
+
+    @Override
+    public void setNext(INode node) {
+    }
+
 }
