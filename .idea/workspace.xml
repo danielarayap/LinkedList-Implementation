@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be327e17-3c9a-49cf-81b7-d21e98a50391" name="Default" comment="listos metodos">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/minitarea1/ILinkList.java" afterPath="$PROJECT_DIR$/src/minitarea1/ILinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/minitarea1/LinkList.java" afterPath="$PROJECT_DIR$/src/minitarea1/LinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/minitarea1/Node.java" afterPath="$PROJECT_DIR$/src/minitarea1/INode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test/LinkListTest.java" afterPath="$PROJECT_DIR$/test/test/LinkedListTest.java" />
+    <list default="true" id="be327e17-3c9a-49cf-81b7-d21e98a50391" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minitarea1/ConcreteNode.java" afterPath="$PROJECT_DIR$/src/minitarea1/ConcreteNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minitarea1/NullNode.java" afterPath="$PROJECT_DIR$/src/minitarea1/NullNode.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +27,8 @@
       <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="186">
+              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -755,7 +749,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505773110724</updated>
-      <workItem from="1505773118128" duration="26121000" />
+      <workItem from="1505773118128" duration="26145000" />
     </task>
     <task id="LOCAL-00001" summary="faltan_metodos">
       <created>1505779763842</created>
@@ -764,7 +758,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505779763842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="listos metodos">
+      <created>1505806337027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505806337027</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -800,7 +801,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26121000" />
+    <option name="totallyTimeSpent" value="26145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -989,8 +990,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="186">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
