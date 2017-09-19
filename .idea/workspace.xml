@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be327e17-3c9a-49cf-81b7-d21e98a50391" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minitarea1/ConcreteNode.java" afterPath="$PROJECT_DIR$/src/minitarea1/ConcreteNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minitarea1/INode.java" afterPath="$PROJECT_DIR$/src/minitarea1/INode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minitarea1/NullNode.java" afterPath="$PROJECT_DIR$/src/minitarea1/NullNode.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +24,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConcreteNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConcreteNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minitarea1/ConcreteNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -44,6 +41,50 @@
                 <element signature="e#591#592#0" expanded="true" />
                 <element signature="e#655#656#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/minitarea1" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/minitarea1">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>minitarea1</OriginalElement>
+              <nodes>
+                <node x="275.0" y="673.5">minitarea1.NullNode</node>
+                <node x="0.0" y="651.0">minitarea1.ConcreteNode</node>
+                <node x="8.0" y="211.0">minitarea1.LinkedList</node>
+                <node x="0.0" y="0.0">minitarea1.ILinkedList</node>
+                <node x="123.75" y="462.0">minitarea1.INode</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="minitarea1.ConcreteNode" target="minitarea1.INode">
+                  <point x="0.0" y="-92.0" />
+                  <point x="127.5" y="626.0" />
+                  <point x="194.25" y="626.0" />
+                  <point x="-70.5" y="69.5" />
+                </edge>
+                <edge source="minitarea1.NullNode" target="minitarea1.INode">
+                  <point x="0.0" y="-69.5" />
+                  <point x="402.0" y="626.0" />
+                  <point x="335.25" y="626.0" />
+                  <point x="70.5" y="69.5" />
+                </edge>
+                <edge source="minitarea1.LinkedList" target="minitarea1.ILinkedList">
+                  <point x="0.0" y="-103.0" />
+                  <point x="0.0" y="80.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="122.0" y="330.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -718,7 +759,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505773110724</updated>
-      <workItem from="1505773118128" duration="28139000" />
+      <workItem from="1505773118128" duration="28476000" />
     </task>
     <task id="LOCAL-00001" summary="faltan_metodos">
       <created>1505779763842</created>
@@ -748,7 +789,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505833519910</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="listoco">
+      <created>1505859778082</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1505859778082</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -784,7 +832,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28139000" />
+    <option name="totallyTimeSpent" value="28476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -830,7 +878,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="faltan_metodos" />
     <MESSAGE value="listos metodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="listos metodos" />
+    <MESSAGE value="listoco" />
+    <option name="LAST_COMMIT_MESSAGE" value="listoco" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -856,47 +905,6 @@
         <state relative-caret-position="126">
           <caret line="321" column="0" lean-forward="false" selection-start-line="321" selection-start-column="0" selection-end-line="321" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/minitarea1">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>minitarea1</OriginalElement>
-          <nodes>
-            <node x="145.0" y="79.0">minitarea1.NullNode</node>
-            <node x="0.0" y="79.0">minitarea1.ConcreteNode</node>
-            <node x="1.5" y="232.0">minitarea1.LinkedList</node>
-            <node x="0.0" y="153.0">minitarea1.ILinkedList</node>
-            <node x="88.5" y="0.0">minitarea1.INode</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="minitarea1.ConcreteNode" target="minitarea1.INode">
-              <point x="0.0" y="-14.5" />
-              <point x="62.5" y="54.0" />
-              <point x="108.5" y="54.0" />
-              <point x="-20.0" y="14.5" />
-            </edge>
-            <edge source="minitarea1.NullNode" target="minitarea1.INode">
-              <point x="0.0" y="-14.5" />
-              <point x="194.5" y="54.0" />
-              <point x="148.5" y="54.0" />
-              <point x="20.0" y="14.5" />
-            </edge>
-            <edge source="minitarea1.LinkedList" target="minitarea1.ILinkedList">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="28.0" y="194.0" />
-          <SelectedNodes>
-            <node>minitarea1.INode</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -958,6 +966,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/minitarea-1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/minitarea1/ConcreteNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -974,6 +990,48 @@
             <element signature="e#591#592#0" expanded="true" />
             <element signature="e#655#656#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/minitarea1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>minitarea1</OriginalElement>
+          <nodes>
+            <node x="275.0" y="673.5">minitarea1.NullNode</node>
+            <node x="0.0" y="651.0">minitarea1.ConcreteNode</node>
+            <node x="8.0" y="211.0">minitarea1.LinkedList</node>
+            <node x="0.0" y="0.0">minitarea1.ILinkedList</node>
+            <node x="123.75" y="462.0">minitarea1.INode</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="minitarea1.ConcreteNode" target="minitarea1.INode">
+              <point x="0.0" y="-92.0" />
+              <point x="127.5" y="626.0" />
+              <point x="194.25" y="626.0" />
+              <point x="-70.5" y="69.5" />
+            </edge>
+            <edge source="minitarea1.NullNode" target="minitarea1.INode">
+              <point x="0.0" y="-69.5" />
+              <point x="402.0" y="626.0" />
+              <point x="335.25" y="626.0" />
+              <point x="70.5" y="69.5" />
+            </edge>
+            <edge source="minitarea1.LinkedList" target="minitarea1.ILinkedList">
+              <point x="0.0" y="-103.0" />
+              <point x="0.0" y="80.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="122.0" y="330.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
