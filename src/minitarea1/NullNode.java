@@ -3,6 +3,16 @@ package minitarea1;
 public class NullNode implements INode {
 
     @Override
+    public void setNext(INode node) {
+
+    }
+
+    @Override
+    public INode getNext() {
+        return null;
+    }
+
+    @Override
     public boolean includes (Object o){
         return false;
     }
@@ -15,15 +25,6 @@ public class NullNode implements INode {
     @Override
     public int indexOf(Object o) {
         return -1;
-    }
-
-    @Override
-    public INode getNext() {
-        return null;
-    }
-
-    @Override
-    public void setNext(INode node) {
     }
 
 }

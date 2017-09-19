@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="be327e17-3c9a-49cf-81b7-d21e98a50391" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test/LinkedListTest.java" afterPath="$PROJECT_DIR$/test/test/LinkedListTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minitarea1/ConcreteNode.java" afterPath="$PROJECT_DIR$/src/minitarea1/ConcreteNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minitarea1/INode.java" afterPath="$PROJECT_DIR$/src/minitarea1/INode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/minitarea1/NullNode.java" afterPath="$PROJECT_DIR$/src/minitarea1/NullNode.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +19,7 @@
     <SUITE FILE_PATH="coverage/minitarea_1$LinkListTest.coverage" NAME="LinkListTest Coverage Results" MODIFIED="1505779596946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/minitarea_1$All_in_minitarea_1.coverage" NAME="All in minitarea-1 Coverage Results" MODIFIED="1505833446905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/minitarea_1$All_in_minitarea_1.coverage" NAME="All in minitarea-1 Coverage Results" MODIFIED="1505859696825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="0" />
@@ -25,33 +27,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test/LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteNode.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConcreteNode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/minitarea1/ConcreteNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
                 <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
                 <element signature="e#655#656#0" expanded="true" />
               </folding>
             </state>
@@ -61,17 +51,16 @@
       <file leaf-file-name="NullNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minitarea1/NullNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,39 +69,18 @@
       <file leaf-file-name="INode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minitarea1/INode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="68">
+              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/minitarea1/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="-207">
               <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding>
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ILinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/minitarea1/ILinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -142,18 +110,18 @@
       <list>
         <option value="$PROJECT_DIR$/test/LinkListTestTest.java" />
         <option value="$PROJECT_DIR$/test/LinkListTest.java" />
-        <option value="$PROJECT_DIR$/src/minitarea1/Node.java" />
         <option value="$PROJECT_DIR$/test/test/LinkListTest.java" />
         <option value="$PROJECT_DIR$/src/minitarea1/ConcreteINode.java" />
         <option value="$PROJECT_DIR$/src/minitarea1/NullINode.java" />
         <option value="$PROJECT_DIR$/src/minitarea1/LinkList.java" />
         <option value="$PROJECT_DIR$/src/minitarea1/ILinkList.java" />
         <option value="$PROJECT_DIR$/src/minitarea1/ILinkedList.java" />
-        <option value="$PROJECT_DIR$/src/minitarea1/INode.java" />
-        <option value="$PROJECT_DIR$/src/minitarea1/ConcreteNode.java" />
-        <option value="$PROJECT_DIR$/src/minitarea1/NullNode.java" />
         <option value="$PROJECT_DIR$/src/minitarea1/LinkedList.java" />
         <option value="$PROJECT_DIR$/test/test/LinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/minitarea1/INode.java" />
+        <option value="$PROJECT_DIR$/src/minitarea1/Node.java" />
+        <option value="$PROJECT_DIR$/src/minitarea1/ConcreteNode.java" />
+        <option value="$PROJECT_DIR$/src/minitarea1/NullNode.java" />
       </list>
     </option>
   </component>
@@ -750,7 +718,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505773110724</updated>
-      <workItem from="1505773118128" duration="26492000" />
+      <workItem from="1505773118128" duration="28139000" />
     </task>
     <task id="LOCAL-00001" summary="faltan_metodos">
       <created>1505779763842</created>
@@ -773,16 +741,17 @@
       <option name="project" value="LOCAL" />
       <updated>1505806359764</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="listos metodos">
+      <created>1505833519910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505833519910</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_minitarea-1 - 2017.09.19 at 04h 12m 08s.xml">
-      <configuration name="All in minitarea-1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_minitarea-1 - 2017.09.19 at 04h 12m 26s.xml">
-      <configuration name="All in minitarea-1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_minitarea-1 - 2017.09.19 at 04h 26m 12s.xml">
       <configuration name="All in minitarea-1" configurationId="JUnit" />
     </history-entry>
@@ -807,9 +776,15 @@
     <history-entry file="All_in_minitarea-1 - 2017.09.19 at 12h 04m 09s.xml">
       <configuration name="All in minitarea-1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_minitarea-1 - 2017.09.19 at 19h 20m 20s.xml">
+      <configuration name="All in minitarea-1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_minitarea-1 - 2017.09.19 at 19h 21m 40s.xml">
+      <configuration name="All in minitarea-1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26492000" />
+    <option name="totallyTimeSpent" value="28139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -876,47 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/minitarea1">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>minitarea1</OriginalElement>
-          <nodes>
-            <node x="1.5" y="232.0">minitarea1.LinkList</node>
-            <node x="148.0" y="79.0">minitarea1.NullINode</node>
-            <node x="0.0" y="79.0">minitarea1.ConcreteINode</node>
-            <node x="0.0" y="153.0">minitarea1.ILinkList</node>
-            <node x="91.5" y="0.0">minitarea1.INode</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="minitarea1.NullINode" target="minitarea1.INode">
-              <point x="0.0" y="-14.5" />
-              <point x="199.0" y="54.0" />
-              <point x="151.5" y="54.0" />
-              <point x="20.0" y="14.5" />
-            </edge>
-            <edge source="minitarea1.ConcreteINode" target="minitarea1.INode">
-              <point x="0.0" y="-14.5" />
-              <point x="64.0" y="54.0" />
-              <point x="111.5" y="54.0" />
-              <point x="-20.0" y="14.5" />
-            </edge>
-            <edge source="minitarea1.LinkList" target="minitarea1.ILinkList">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="125.0" y="130.5" />
-          <SelectedNodes>
-            <node>minitarea1.ILinkList</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -925,47 +859,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/minitarea1/ConcreteNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minitarea1/INode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/minitarea1/NullNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-          </folding>
+    <entry file="uml://JAVA/minitarea1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>minitarea1</OriginalElement>
+          <nodes>
+            <node x="145.0" y="79.0">minitarea1.NullNode</node>
+            <node x="0.0" y="79.0">minitarea1.ConcreteNode</node>
+            <node x="1.5" y="232.0">minitarea1.LinkedList</node>
+            <node x="0.0" y="153.0">minitarea1.ILinkedList</node>
+            <node x="88.5" y="0.0">minitarea1.INode</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="minitarea1.ConcreteNode" target="minitarea1.INode">
+              <point x="0.0" y="-14.5" />
+              <point x="62.5" y="54.0" />
+              <point x="108.5" y="54.0" />
+              <point x="-20.0" y="14.5" />
+            </edge>
+            <edge source="minitarea1.NullNode" target="minitarea1.INode">
+              <point x="0.0" y="-14.5" />
+              <point x="194.5" y="54.0" />
+              <point x="148.5" y="54.0" />
+              <point x="20.0" y="14.5" />
+            </edge>
+            <edge source="minitarea1.LinkedList" target="minitarea1.ILinkedList">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="28.0" y="194.0" />
+          <SelectedNodes>
+            <node>minitarea1.INode</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -987,21 +918,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/minitarea1/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minitarea1/INode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/minitarea1/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
+        <state relative-caret-position="-207">
           <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minitarea1/NullNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/minitarea1/ConcreteNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
           </folding>
         </state>
       </provider>

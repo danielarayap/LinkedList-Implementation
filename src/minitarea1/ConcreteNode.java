@@ -11,6 +11,16 @@ public class ConcreteNode implements INode {
     }
 
     @Override
+    public INode getNext() {
+        return next;
+    }
+
+    @Override
+    public void setNext(INode node) {
+        next = node;
+    }
+
+    @Override
     public boolean includes (Object o){
         return value.equals(o) || next.includes(o);
     }
@@ -23,16 +33,6 @@ public class ConcreteNode implements INode {
     @Override
     public int indexOf(Object o) {
         return value.equals(o) ? 0 : 1 + next.indexOf(o);
-    }
-
-    @Override
-    public INode getNext() {
-        return next;
-    }
-
-    @Override
-    public void setNext(INode node) {
-        next = node;
     }
 
 }
