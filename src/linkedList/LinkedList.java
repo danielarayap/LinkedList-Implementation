@@ -1,19 +1,19 @@
-package minitarea1;
+package linkedList;
 
 public class LinkedList implements ILinkedList {
+
     private INode first, last;
 
     public LinkedList(){
         first = new NullNode();
     }
+
     @Override
     public void addFirst(Object o) {
-        if (this.isEmpty()) {
-            first = last = new ConcreteNode(o, first);
-        }
-        else {
-            first = new ConcreteNode(o, first);
-        }
+        if (this.isEmpty())
+            first = last = new Node(o, first);
+        else
+            first = new Node(o, first);
     }
 
     @Override
@@ -38,13 +38,27 @@ public class LinkedList implements ILinkedList {
     @Override
     public void addLast(Object o) {
         if (this.isEmpty()){
-            first = last = new ConcreteNode(o, first);
+            first = last = new Node(o, first);
         }
         else {
-            INode temp = new ConcreteNode(o, last.getNext());
+            INode temp = new Node(o, last.getNext());
             last.setNext(temp);
             last = last.getNext();
         }
     }
+
+    @Override
+    public Object extractFirst(){
+        Object o = first.getValue();
+        first = first.getNext();
+        return o;
+    }
+
+    @Override
+    public Object extractLast(){
+        Object o = last.getValue();
+        return o;
+    }
+
 
 }

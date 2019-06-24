@@ -1,4 +1,4 @@
-package minitarea1;
+package linkedList;
 
 public class NullNode implements INode {
 
@@ -25,6 +25,11 @@ public class NullNode implements INode {
     @Override
     public int indexOf(Object o) {
         return -1;
+    }
+
+    @Override
+    public Object getValue(){
+        return null;
     }
 
 }

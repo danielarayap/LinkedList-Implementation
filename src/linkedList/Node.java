@@ -1,11 +1,11 @@
-package minitarea1;
+package linkedList;
 
-public class ConcreteNode implements INode {
+public class Node implements INode {
 
     private Object value;
     private INode next;
 
-    ConcreteNode(Object o, INode nxt) {
+    Node(Object o, INode nxt) {
         value = o;
         next = nxt;
     }
@@ -33,6 +33,11 @@ public class ConcreteNode implements INode {
     @Override
     public int indexOf(Object o) {
         return value.equals(o) ? 0 : 1 + next.indexOf(o);
+    }
+
+    @Override
+    public Object getValue(){
+        return value;
     }
 
 }
